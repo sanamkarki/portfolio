@@ -129,12 +129,9 @@
   padding-bottom:75px;
 }
 
-.workExperienceLeftAlign{
-  font-family: 'Rubik', sans-serif;
-  text-align: left !important;
-}
+
 .workContainer{
-  margin-left:10px !important;
+  text-align: left !important;
 
 }
 .moreAboutButton:hover{
@@ -235,11 +232,10 @@ color:#a393eb;
   font-size:20px;
 
 }
-p, .workExperiencePara{
+ .workExperiencePara{
   color:white;
   font-size: 21px;
-  align-items: left;
-  text-align: left;
+  text-align: left !important;
 
 }
 /* Certification Section */
@@ -307,6 +303,7 @@ p, #certSection{
 .contactBoxColor{
   display:block;
   margin: 0 auto;
+  column-gap: 20px;
   /* background-color: red !important; */
 }
 .contactLogo{
