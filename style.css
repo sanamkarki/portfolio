@@ -131,9 +131,13 @@
 
 
 .workContainer{
-  text-align: left !important;
+ 
+padding-left: 20px;
+
+
 
 }
+
 .moreAboutButton:hover{
   color:#35013f !important;
   transition: 0.3s;
@@ -312,6 +316,9 @@ p, #certSection{
   width:20px;
   height:20px;
 }
+.mobileProjectText{
+  display:none;
+}
 
 .contactBoxDecor{
   padding-top: 15px;
@@ -404,6 +411,7 @@ text-align: center;
   text-align: center;
   margin:40px;
 }
+
 .certHeading{
   font-size:35px;
 }
@@ -420,9 +428,10 @@ font-size:20px;
 .workExperienceId,.workExperienceDesc{
   font-size:20px;
 }
-/* .certImagesPro{
-  display:none;
-} */
+.workMobile{
+  margin-left: 20px;
+}
+ 
 
 .subProjectsTitle{
   display: none;
@@ -458,6 +467,14 @@ padding-bottom: 30px;
 .contactHeading{
 text-align: center;
 font-size:35px;
+}
+.mobileProjectText{
+  display:block;
+  text-align: center;
+  font-size: 21px;
+  color:#a393eb;
+  font-family: 'Rubik', sans-serif;
+
 }
 /* .contactSection{
   display: block;
