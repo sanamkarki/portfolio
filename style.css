@@ -128,15 +128,11 @@
   padding-top:20px;
   padding-bottom:75px;
 }
-
-
 .workContainer{
- 
-padding-left: 20px;
+  padding-left: 40px;
+  }
+  
 
-
-
-}
 
 .moreAboutButton:hover{
   color:#35013f !important;
@@ -158,19 +154,6 @@ padding-left: 20px;
 
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
-   
-    /* .mainTitle {
-      font-family: 'Rubik', sans-serif;
-    display: block;
-    margin: 0 auto;
-    padding-top:95px;
-    text-align: center;
-    font-size: 100px;
-    width:100px;
-    line-height: 100px;
-    width: 400px;
-    color:#a393eb;
-    }  */
     .nav-link{
       padding-right:15px !important;
       font-family: 'Rubik', sans-serif;
@@ -179,19 +162,12 @@ padding-left: 20px;
     }
    .navbar-brand {
    padding: 0px;
-   /* padding-left: 250px;
-  font-size: 2px !important;
-    color:#5e63b6 !important ;  */
-  
    }
    .toggleRight{
-   
      padding-right:300px !important;
    }
   }
    #topAbout{
-
-   
      display:block;
       font-size: 40px;
       padding-top: 120px;
@@ -428,9 +404,7 @@ font-size:20px;
 .workExperienceId,.workExperienceDesc{
   font-size:20px;
 }
-.workMobile{
-  margin-left: 20px;
-}
+
  
 
 .subProjectsTitle{
@@ -464,10 +438,14 @@ padding-bottom: 30px;
   justify-content: center;
   align-items: center;
 }
+.contactBoxes{
+  margin-left:20px;
+}
 .contactHeading{
 text-align: center;
 font-size:35px;
 }
+
 .mobileProjectText{
   display:block;
   text-align: center;
@@ -476,22 +454,4 @@ font-size:35px;
   font-family: 'Rubik', sans-serif;
 
 }
-/* .contactSection{
-  display: block;
-  margin:  0 auto;
-  justify-content: center;
-text-align:center;} */
-  /* display: block;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center; */
-
-/* .contactBoxColor{
-  display: block;
-  margin: 0 auto;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-} */
-
 }
